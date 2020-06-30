@@ -1,0 +1,12 @@
+  
+apiVersion: tekton.dev/v1beta1
+kind: TaskRun
+metadata:
+  generateName: echo-
+spec:
+  taskSpec:
+    steps:
+    - image: ubuntu
+      script: |
+        #!/usr/bin/env bash
+        echo "hello world!"
