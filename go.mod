@@ -4,6 +4,7 @@ go 1.14
 
 require (
 	github.com/gobwas/glob v0.2.3
+	github.com/spf13/cobra v0.0.5
 	k8s.io/apimachinery v0.18.2
 	k8s.io/client-go v0.18.2
 	k8s.io/klog v1.0.0
